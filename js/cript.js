@@ -22,3 +22,11 @@ function squareSum(numbers) {
     return n * n + sum;
   }, 0);
 }
+
+/////////////////////////////////////////////////////////
+//Convert number to reversed array of digits
+function digitize(n) {
+  return n.reverse();
+}
+console.log(digitize([6, 5, 4, 3, 2, 1]));
+console.log([6, 5, 4, 3, 2, 1].reverse());
